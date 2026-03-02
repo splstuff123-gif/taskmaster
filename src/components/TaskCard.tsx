@@ -11,7 +11,7 @@ interface Task {
   priority: 'low' | 'medium' | 'high';
   status: 'todo' | 'in_progress' | 'done';
   due_date: string | null;
-  created_at: string;
+  created_at: number;
 }
 
 interface TaskCardProps {
