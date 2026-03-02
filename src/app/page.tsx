@@ -7,6 +7,8 @@ import TaskCard from '@/components/TaskCard';
 import AddTaskModal from '@/components/AddTaskModal';
 import { PlusIcon } from '@heroicons/react/24/outline';
 
+export const dynamic = 'force-dynamic';
+
 interface Task {
   id: string;
   title: string;
